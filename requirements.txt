@@ -1,30 +1,9 @@
-# Core analysis tools
+streamlit
+streamlit-option-menu
 numpy
 pandas
-scikit-learn
 matplotlib
 seaborn
 plotly
-
-# Machine learning
-xgboost
-keras  # Kept for user in case it works; will fail if it requires TensorFlow directly
-
-# Web + API
-streamlit
-Flask
-
-# NLP
-nltk
-transformers
-
-# Utility
+scikit-learn
 category_encoders
-datasist
-ip2geotools
-yfinance
-pyyaml
-requests
-
-# Jupyter (optional)
-jupyter
