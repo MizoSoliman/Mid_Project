@@ -7,5 +7,5 @@ seaborn
 plotly
 scikit-learn
 category_encoders
-scipy==1.11.3
-statsmodels==0.14.0
+scipy
+statsmodels
