@@ -9,3 +9,4 @@ scikit-learn
 category_encoders
 scipy
 statsmodels
+scipy._lib._util
