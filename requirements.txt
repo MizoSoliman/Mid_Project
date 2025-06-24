@@ -8,8 +8,7 @@ plotly
 
 # Machine learning
 xgboost
-tensorflow
-keras
+keras  # Kept for user in case it works; will fail if it requires TensorFlow directly
 
 # Web + API
 streamlit
@@ -27,5 +26,5 @@ yfinance
 pyyaml
 requests
 
-# Jupyter (اختياري)
+# Jupyter (optional)
 jupyter
