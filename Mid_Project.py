@@ -737,7 +737,7 @@ elif page == 'Data Preprocessing':
         """
         - **Test Data :**
             - **Concatenate All Data ( x_test , one_df_test , bie_df_test ) .**
-            - **Drop Unnecessary Columns
+            - **Drop Unnecessary Columns**
         """)
     x_test = pd.concat([x_test, one_df_test, bie_df_test], axis=1).drop(columns=['gender' , 'has_insurance' , 'area' , 'diagnosis' , 'visit_day_type' , 'age_group'] , axis=1) 
     st.code(
