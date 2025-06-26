@@ -21,7 +21,7 @@ with zipfile.ZipFile(zip_file, 'r') as zip_ref:
     
     # قراءة الملف مباشرة
 df = pd.read_csv('patient_dataset.csv')
-data = df.sample(n=20000, random_state=42)
+data = df.sample(n=40000, random_state=42)
 
 # Create Pages
 
